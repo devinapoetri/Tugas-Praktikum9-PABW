@@ -1,3 +1,6 @@
 {
-    "Pendaftaran": true
+    "Pendaftaran": true,
+    "Mahasiswa": true,
+    "MahasiswaSync": true,
+    "MSync": true
 }

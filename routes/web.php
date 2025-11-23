@@ -27,11 +27,11 @@ Route::post('/upload', [UploadController::class, 'store'])->name('upload.store')
 Route::delete('/upload/{upload}', [UploadController::class, 'destroy'])->name('upload.destroy');
 
 // ======== MAHASISWA ========
-Route::get('/mahasiswa', [MahasiswaController::class, 'index'])->name('mahasiswa.index');
-Route::get('/mahasiswa/data', [MahasiswaController::class, 'getData'])->name('mahasiswa.data');
-Route::post('/mahasiswa/store', [MahasiswaController::class, 'store'])->name('mahasiswa.store');
-Route::get('/mahasiswa/edit/{id}', [MahasiswaController::class, 'edit'])->name('mahasiswa.edit');
-Route::put('/mahasiswa/update/{id}', [MahasiswaController::class, 'update'])->name('mahasiswa.update');
-Route::delete('/mahasiswa/delete/{id}', [MahasiswaController::class, 'destroy'])->name('mahasiswa.destroy');
+// Route::get('/mahasiswa', [MahasiswaController::class, 'index'])->name('mahasiswa.index');
+// Route::get('/mahasiswa/data', [MahasiswaController::class, 'getData'])->name('mahasiswa.data');
+// Route::post('/mahasiswa/store', [MahasiswaController::class, 'store'])->name('mahasiswa.store');
+// Route::get('/mahasiswa/edit/{id}', [MahasiswaController::class, 'edit'])->name('mahasiswa.edit');
+// Route::put('/mahasiswa/update/{id}', [MahasiswaController::class, 'update'])->name('mahasiswa.update');
+// Route::delete('/mahasiswa/delete/{id}', [MahasiswaController::class, 'destroy'])->name('mahasiswa.destroy');
 
 require __DIR__.'/auth.php';

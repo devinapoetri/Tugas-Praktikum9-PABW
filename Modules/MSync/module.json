@@ -1,0 +1,11 @@
+{
+    "name": "MSync",
+    "alias": "msync",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MSync\\Providers\\MSyncServiceProvider"
+    ],
+    "files": []
+}
